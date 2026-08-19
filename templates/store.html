@@ -17,8 +17,7 @@ h1 span { color: #a855f7; text-shadow: 0 0 12px rgba(168, 85, 247, 0.6); }
 .subtitle { color: #9ca3af; margin-bottom: 30px; font-size: 14px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
 .card { background: #110e1b; border: 1px solid #281e3d; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 0 15px rgba(168, 85, 247, 0.1); }
-.card:hover { border-shadow: 0 0 15px rgba(168, 85, 247, 0.4); transition: 0.3s; }
-.card-title { font-size: 18px; font-weight: bold; color: #f3foff; margin-bottom: 8px; }
+.card-title { font-size: 18px; font-weight: bold; color: #ffffff; margin-bottom: 8px; }
 .card-cat { font-size: 11px; text-transform: uppercase; background: #1c142d; color: #c084fc; padding: 4px 8px; border-radius: 6px; width: fit-content; margin-bottom: 12px; }
 .card-desc { font-size: 13px; color: #9ca3af; margin-bottom: 20px; line-height: 1.4; }
 .card-footer { display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #281e3d; padding-top: 15px; }
@@ -40,8 +39,8 @@ h1 span { color: #a855f7; text-shadow: 0 0 12px rgba(168, 85, 247, 0.6); }
 <div class="card">
 <div>
 <span class="card-cat">{{ script.category }}</span>
-<div class="card-title">{{ script.title }}</div> <!-- AICI AM ADĂUGAT LINIA LIPSĂ! -->
-<div class="card-desc">{{ script.description }}</div> <!-- AICI AM ADĂUGAT LINIA LIPSĂ! -->
+<div class="card-title">{{ script.title }}</div>
+<div class="card-desc">{{ script.description }}</div>
 </div>
 <div class="card-footer">
 <span class="price">{{ script.price }}</span>
